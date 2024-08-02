@@ -40,14 +40,14 @@ function CreateBlogs() {
                     />
                 </label>
                 <label>
-                    Blog:
+                    Voice:
                     <textarea 
                         value={textBody} 
                         onChange={(e) => setTextBody(e.target.value)} 
                         required 
                     />
                 </label>
-                <button type="submit">Submit</button>
+                <button type="submit">Post</button>
             </form>
         </div>
     );

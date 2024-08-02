@@ -62,7 +62,7 @@ function Navbar() {
       <ul className="nav-links">
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/profile">Profile</Link></li>
-        <li><Link to="/create-blogs">Create Blog</Link></li>
+        <li><Link to="/create-blogs">Create Voice</Link></li>
         <li><Link to="/trash">Trash</Link></li>
         <li><button onClick={confirmLogout}>Logout</button></li>
         <li><button onClick={confirmLogoutAllDevices}>Logout from All Devices</button></li>

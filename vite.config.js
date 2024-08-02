@@ -10,10 +10,10 @@ dotenv.config();
 export default defineConfig({
   server:{
     proxy:{
-     "/auth" : process.env.SERVER_URL,
-     "/follow" : process.env.SERVER_URL,
-     "/blog" : process.env.SERVER_URL,
-     "/user" : process.env.SERVER_URL,
+     "/auth" : process.env.VITE_SERVER_URL,
+     "/follow" : process.env.VITE_SERVER_URL,
+     "/blog" : process.env.VITE_SERVER_URL,
+     "/user" : process.env.VITE_SERVER_URL,
   },
 },
   plugins: [react()],
