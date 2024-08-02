@@ -8,6 +8,7 @@ export default defineConfig({
      "/auth" : "http://localhost:8000",
      "/follow" : "http://localhost:8000",
      "/blog" : "http://localhost:8000",
+     "/user" : "http://localhost:8000",
   },
 },
   plugins: [react()],

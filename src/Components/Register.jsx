@@ -20,7 +20,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/auth/register', formData);
+      const response = await axios.post('/auth/register', formData);
       if (response.data.status === 201) {
         navigate('/login');
       } else {
@@ -33,7 +33,7 @@ const Register = () => {
 
   return (
     <div className="container">
-      <img src="./bloggingApp.jpg" alt="Decorative" className="image" />
+      <img src="../public/bloggingApp.jpg" alt="Decorative" className="image" />
       <div className="form-container">
         <h2>Register</h2>
         <form onSubmit={handleSubmit}>

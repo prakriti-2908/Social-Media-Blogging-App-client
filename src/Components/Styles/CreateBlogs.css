@@ -1,0 +1,53 @@
+.create-blogs-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.create-blogs-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-blogs-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-blogs-form label {
+    margin-bottom: 15px;
+}
+
+.create-blogs-form input[type="text"],
+.create-blogs-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.create-blogs-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.create-blogs-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.create-blogs-form button:hover {
+    background-color: #0056b3;
+}

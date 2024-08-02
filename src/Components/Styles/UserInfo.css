@@ -1,0 +1,66 @@
+
+
+
+.followList {
+    border: 1px solid block;
+    /* padding: 30px; */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 50%;
+    background-color: rgb(214, 209, 209);
+    border: 1px solid black !important;
+    width: 20vw;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 30px;
+    position: relative;
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+.userInfo h4{
+    margin: 30px 0px;
+}
+
+.userInfo button {
+    font-size: 12px !important;
+}
+
+.userInfo .name, .userInfo .username, .userInfo .email {
+    font-family: 'Allucina', cursive;
+}
+
+.userInfo-flexBtn{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    gap: 40px;
+
+}
+
+.eachFollow{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+.eachFollow p {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.eachFollow button {
+    font-size: xx-small;
+    margin: 1% !important;
+}

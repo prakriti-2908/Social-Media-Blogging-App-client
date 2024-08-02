@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading {
+    font-family: 'Allucina', cursive;
+    margin: 60px 0px;
+}
+
+.textBody{
+    /* border: 1px solid black; */
+    padding: 10px;
+    width: 60%;
+    text-align: justify;
+    display: flex;
+    margin-bottom: 50px !important;
+    margin-left: 149px !important;
+}
+
+
+.blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.nameOfUser{
+    position: absolute;
+    top: 20px;
+    font-size: small;
+    font-weight: 800;
+}
+
+.createTime {
+    position: absolute;
+    bottom: 20px;
+    font-size: smaller;
+}
+
+.blog-card {
+    position: relative;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 900px !important;
+    transition: transform 0.2s;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+}
+
+.blog-card h3 {
+    margin-top: 0;
+}
+
+.blog-card p {
+    margin: 10px 0;
+}
+
+.blog-card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blog-card button:hover {
+    background-color: #0056b3;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

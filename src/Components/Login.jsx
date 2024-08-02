@@ -21,8 +21,8 @@ const Login = () => {
     const handleSubmit = async(e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/auth/login',formData);
-            console.log(response.data.status!==200);
+            const response = await axios.post('/auth/login',formData);
+            //console.log(response.data.status!==200);
             if(response.data.status!==200){
                 setError(`${response.data.message}`);
             }else{
@@ -36,7 +36,7 @@ const Login = () => {
 
   return (
     <div className="container">
-      <img src="./bloggingApp.jpg" alt="Decorative" className="image" />
+      <img src="../public/bloggingApp.jpg" alt="Decorative" className="image" />
       <div className="form-container">
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
@@ -50,7 +50,7 @@ const Login = () => {
           </div>
           <button type="submit" className="btn">Login</button>
           {error&&<p className='error'>{error}</p>}
-          <p>Don't have an account? <Link to="/register" className="link">Register</Link></p>
+          <p>Don't have an account? <Link to="/" className="link">Register</Link></p>
         </form>
       </div>
     </div>

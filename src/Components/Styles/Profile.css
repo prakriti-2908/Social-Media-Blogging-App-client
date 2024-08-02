@@ -1,0 +1,243 @@
+/* Profile.css */
+
+/* General Styles */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Profile Info Section */
+.profile-info {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+.profile-info div {
+    margin-bottom: 10px;
+}
+
+.profile-info strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-info button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-info button:hover {
+    background-color: #0056b3;
+}
+
+/* Blog Section */
+.myBlogs {
+    padding: 20px;
+}
+
+.blogCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 900px;
+    min-height: 180px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.userName {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-weight: 800;
+    font-size: small;
+}
+
+.dltEditBtn {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    right: 10px;
+}
+
+.dltEditBtn button {
+    margin-top: 0;
+    font-size: xx-small;
+    width: 8px;
+    padding: 0px;
+}
+
+.dltEditBtn button i {
+    font-size: smaller;
+    padding: 0%;
+}
+
+.creationTime{
+    position: absolute;
+    bottom: 19px;
+    font-size: smaller;
+}
+
+.blog-card h3 {
+    margin-top: 0;
+}
+
+.blog-card p {
+    margin: 5px 0;
+}
+
+.blog-card button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.blog-card button:hover {
+    background-color: #c82333;
+}
+
+/* Edit Form */
+
+.flexBtn{
+    display: flex;
+    gap: 0px;
+}
+
+.edit-form {
+    width: 50vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.edit-form h2 {
+    margin-top: 0;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-form input,
+.edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* .edit-form button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+} */
+
+.edit-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.edit-form button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.edit-form button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+/* Followers and Followings Lists */
+.followers-list,
+.followings-list {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+.followers-list h3,
+.followings-list h3 {
+    margin-top: 0;
+}
+
+.follow-list-container,
+.following-list-container {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.follower-card,
+.following-card {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.follower-card:last-child,
+.following-card:last-child {
+    border-bottom: none;
+}
+
+.follow-list-container button,
+.following-list-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.follow-list-container button:hover,
+.following-list-container button:hover {
+    background-color: #0056b3;
+}
