@@ -36,7 +36,7 @@ const Login = () => {
 
   return (
     <div className="container">
-      <img src="../public/bloggingApp.jpg" alt="Blogging App" className='image' />
+      <img src="https://images.business.com/app/uploads/2020/08/24083141/social-media-marketing-strategy.png" alt="Blogging App" className='image' />
       <div className="form-container">
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
